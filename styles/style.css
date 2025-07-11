@@ -200,3 +200,68 @@ main{
 .op-btn{
     margin: 20px;
 }
+
+
+.touch-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 632px;
+    max-width: 1140px;
+}
+.get-touch{
+    display: block;
+}
+.all-block{
+    display: block;
+    width: 100%;
+}
+.text-touch{
+   font-size: 70px;
+}
+.text-bold{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.input-style{
+    border: rgba(214, 221, 237, 1) 1px solid;
+    height: auto;
+    min-height: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 20px 32px;
+}
+.textarea{
+    border: rgba(214, 221, 237, 1) 1px solid;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    color: #00000082;
+}
+
+/* Footer Section */
+footer{
+    margin-bottom: 50px;
+}
+.footer-style{
+    display: block;
+    text-align: center;
+    max-height: 190px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #00000082;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    padding: 20px;
+}
+.logo{
+    font-size: 80px;
+    color: #4E47FF;
+}
