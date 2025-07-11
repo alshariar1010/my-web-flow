@@ -74,7 +74,7 @@ main{
 .action-text-main{
     display: flex;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .img-style{
@@ -93,4 +93,33 @@ main{
 }
 .btn-tag-gap{
     margin-top: 23px;
+}
+/* Productive Users Section */
+.frame-main{
+    margin-top: 116px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 142px;
+}
+.user-count{
+    display: flex;
+    justify-content: space-around;
+}
+.user-info-main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.frame-main-text-gap{
+    margin: 50px 142px 40px;
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+}
+.user-info{
+    color: rgba(0, 0, 0, 0.5);
+}
+.count-text{
+    color: #4E47FF;
+    font-weight: bold;
 }
