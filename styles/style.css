@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .raleway-raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .raleway-inter {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+
 /* all text color */
-.mini-text{
+.mini-text {
     color: #00000082;
 }
 
@@ -22,18 +24,20 @@
 
 /* Navbar Section */
 
-nav a{
+nav a {
     text-decoration: none;
     color: #4E47FF;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
     padding: 30px;
 }
-nav button{
+
+nav button {
     background-color: #4E47FF;
     color: white;
     font-weight: 300;
@@ -41,35 +45,70 @@ nav button{
     border: none;
     border-radius: 10px;
 }
-.button-style{
+
+.button-style {
     background-color: #4E47FF;
     color: white;
     font-weight: 300;
     padding: 12px 36px;
     border: none;
     border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.button-style span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-style span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-style:hover {
+    padding-right: 25px;
+    background-color: black;
+    color: white;
+}
+
+.button-style:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+
 /* main */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* Banner Section */
-.main-hader-contant{
+.main-hader-contant {
     display: flex;
     max-width: 1140px;
     margin: 100px auto;
     justify-content: center;
 }
-.button-gap{
+
+.button-gap {
     margin-top: 30px;
     margin-bottom: 100px;
 }
-.hader-contant{
+
+.hader-contant {
     text-align: center;
 }
-.backround-img{
+
+.backround-img {
     background-image: url("../Assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,67 +116,78 @@ main{
 }
 
 /* Action Section */
-.action-text-main{
+.action-text-main {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
-.img-style{
+
+.img-style {
     border-radius: 48px;
     height: 328px;
     width: 403px;
 }
-.p-tag-gap{
+
+.p-tag-gap {
     margin-top: 23px;
     margin-bottom: 23px;
     font-weight: 517px;
 }
-.h-tag-color{
+
+.h-tag-color {
     color: #252432;
     font-weight: 517px;
 }
-.btn-tag-gap{
+
+.btn-tag-gap {
     margin-top: 23px;
 }
+
 /* Productive Users Section */
-.frame-main{
+.frame-main {
     margin-top: 116px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     text-align: center;
     padding: 50px 142px;
 }
-.user-count{
+
+.user-count {
     display: flex;
     justify-content: space-around;
 }
-.user-info-main{
+
+.user-info-main {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
 }
-.frame-main-text-gap{
+
+.frame-main-text-gap {
     margin: 50px 142px 40px;
     color: rgba(37, 36, 50, 1);
     font-weight: bold;
 }
-.user-info{
+
+.user-info {
     color: rgba(0, 0, 0, 0.5);
 }
-.count-text{
+
+.count-text {
     color: #4E47FF;
     font-weight: bold;
     font-size: 30px;
 }
-.count-title{
+
+.count-title {
     align-items: center;
 }
 
 
 
 /* Users’ Feedback Section style */
-.feed-text{
+.feed-text {
     display: flex;
     justify-content: center;
     max-width: 1140px;
@@ -145,24 +195,29 @@ main{
     margin-top: 130px;
     margin-bottom: 40px;
 }
-.img-style-r{
+
+.img-style-r {
     display: flex;
     height: 20px;
     width: 20px;
     margin-bottom: 20px;
 }
-.reviewer{
+
+.reviewer {
     display: flex;
 }
-.reviewer-info{
+
+.reviewer-info {
     margin-left: 12px;
 }
-.reviewer-img-border{
+
+.reviewer-img-border {
     height: 40px;
     width: 40px;
     border-radius: 999px;
 }
-.feedback-title{
+
+.feedback-title {
     height: 243px;
     max-width: 330px;
     padding: 24px;
@@ -173,20 +228,23 @@ main{
     align-items: center;
     gap: 20px;
 }
-.feedback-section{
+
+.feedback-section {
     display: flex;
 }
-.card-show{
+
+.card-show {
     display: flex;
     gap: 20px;
 }
 
 /* optional */
-.op-img{
+.op-img {
     height: 360px;
     border-radius: 48px;
 }
-.optional-style{
+
+.optional-style {
     text-align: center;
     max-width: 1140px;
     background-color: rgb(245, 237, 237);
@@ -194,36 +252,43 @@ main{
     margin-top: 137px;
     padding: 20px;
 }
-.op-main-text{
+
+.op-main-text {
     margin: 71px 312px 12px 312px;
 }
-.op-btn{
+
+.op-btn {
     margin: 20px;
 }
 
 
-.touch-section{
+.touch-section {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 632px;
     max-width: 1140px;
 }
-.get-touch{
+
+.get-touch {
     display: block;
 }
-.all-block{
+
+.all-block {
     display: block;
     width: 100%;
 }
-.text-touch{
-   font-size: 70px;
+
+.text-touch {
+    font-size: 70px;
 }
-.text-bold{
+
+.text-bold {
     font-weight: bold;
     margin-bottom: 10px;
 }
-.input-style{
+
+.input-style {
     border: rgba(214, 221, 237, 1) 1px solid;
     height: auto;
     min-height: 20px;
@@ -231,7 +296,8 @@ main{
     border-radius: 10px;
     padding: 20px 32px;
 }
-.textarea{
+
+.textarea {
     border: rgba(214, 221, 237, 1) 1px solid;
     height: auto;
     margin-bottom: 5px;
@@ -241,27 +307,32 @@ main{
 }
 
 /* Footer Section */
-footer{
+footer {
     margin-bottom: 50px;
 }
-.footer-style{
+
+.footer-style {
     display: block;
     text-align: center;
     max-height: 190px;
 }
-footer ul li a{
+
+footer ul li a {
     text-decoration: none;
     color: #00000082;
 }
-footer ul{
+
+footer ul {
     display: flex;
     justify-content: center;
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
     padding: 20px;
 }
-.logo{
+
+.logo {
     font-size: 80px;
     color: #4E47FF;
 }
