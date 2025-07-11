@@ -7,6 +7,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.raleway-inter {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* all text color */
 .mini-text{
     color: #00000082;
@@ -122,4 +128,75 @@ main{
 .count-text{
     color: #4E47FF;
     font-weight: bold;
+    font-size: 30px;
+}
+.count-title{
+    align-items: center;
+}
+
+
+
+/* Users’ Feedback Section style */
+.feed-text{
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.img-style-r{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+}
+.reviewer{
+    display: flex;
+}
+.reviewer-info{
+    margin-left: 12px;
+}
+.reviewer-img-border{
+    height: 40px;
+    width: 40px;
+    border-radius: 999px;
+}
+.feedback-title{
+    height: 243px;
+    max-width: 330px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: rgba(242, 237, 237, 1) solid 1px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.feedback-section{
+    display: flex;
+}
+.card-show{
+    display: flex;
+    gap: 20px;
+}
+
+/* optional */
+.op-img{
+    height: 360px;
+    border-radius: 48px;
+}
+.optional-style{
+    text-align: center;
+    max-width: 1140px;
+    background-color: rgb(245, 237, 237);
+    border-radius: 14px;
+    margin-top: 137px;
+    padding: 20px;
+}
+.op-main-text{
+    margin: 71px 312px 12px 312px;
+}
+.op-btn{
+    margin: 20px;
 }
